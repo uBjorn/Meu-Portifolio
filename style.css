@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.cima {
+  display: flex;
+  padding-left: 87px;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Nosifer";
+  height: 71px;
+  width: 227px;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+a {
+  color: #ffffff;
+  font-family: "Noto Music";
+  display: flex;
+  height: 100px;
+  width: 400px;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 50px;
+  padding-top: 100px;
+}
+.baixo {
+    width: 623px;
+    height: 243px;
+    color: #ffffff;
+    border: 4px solid #9f7938;
+    background: linear-gradient(211deg, #1d3331 57.46%, #579993 102.67%);
+    color: #ffffff;
+    padding: 8px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Irish Grover";
+    padding-top: 25px;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(123deg, #6B5B41 42.44%, #74644B 44.76%, #967D56 54.86%);
+  align-items: center;
+ 
+}
+.Poema {
+  border: 4px solid #9f7938;
+  background: linear-gradient(211deg, #1d3331 57.46%, #579993 102.67%);
+  color: #ffffff;
+  width: 383px;
+  height: 450px;
+  padding: 8px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.Poema p {
+    margin: 0;
+  font-size: 16px;
+  font-family: "Irish Grover";
+}
+.Poema .prabaixo {
+  padding-top: 30px;
+}
+.img-main{
+    background-color: #636363;
+    height: 950px;
+    width: 100%;
+}
+.img-main img{
+    height: 100%;
+}
+
