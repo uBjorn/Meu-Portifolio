@@ -21,6 +21,11 @@ body{
 .baixo P{
     font-size: 50px;
     padding-left: 60px;
+    margin: 8px;
+}
+a{
+    font-size: 50px;
+    padding-left: 60px;
     margin: 25px;
 }
 .Titulos{
@@ -49,4 +54,9 @@ a{
     font-weight: 400;
     line-height: normal;
 
+}
+.baixo .pp{
+    font-size: 40px;
+    padding-left: 60px;
+    margin: 8px;
 }
