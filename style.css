@@ -76,3 +76,76 @@ body {
     height: 100%;
 }
 
+
+@media (max-width: 768px) {
+
+  .cima {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 32px;
+    padding: 10px 0;
+    text-align: center;
+    padding-left: 130px;
+  }
+
+  a {
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    padding-top: 20px;
+
+  }
+
+  .Poema {
+    width: 90%;
+    padding: 12px;
+    font-size: 14px;
+    height: auto;
+  }
+
+  .Poema p {
+    font-size: 14px;
+  }
+
+  .baixo {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .img-main {
+    height: auto;
+    width: 100%;
+  }
+
+  .img-main img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ======== EXTRA: telas muito pequenas ======== */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  .Poema p {
+    font-size: 13px;
+  }
+
+  .baixo {
+    font-size: 14px;
+  }
+}

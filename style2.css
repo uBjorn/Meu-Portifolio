@@ -60,3 +60,73 @@ a{
     padding-left: 60px;
     margin: 8px;
 }
+/* ======== MODO MOBILE ======== */
+@media (max-width: 768px) {
+
+    body {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 15px;
+    }
+  
+    .Titulos {
+      padding-top: 30px;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 32px;
+    }
+  
+    .baixo {
+      width: 90%;
+      height: auto;
+      padding: 15px;
+      margin: 15px 0;
+      text-align: center;
+    }
+  
+    .baixo p,
+    .baixo .pp {
+      font-size: 26px;
+      padding-left: 0;
+      margin: 50px 0;
+    }
+  
+    /* Deixa os links <a> de projetos lado a lado */
+    .baixo a {
+      display: inline-block;
+      font-size: 16px;
+      margin: 6px 4px;
+      padding: 6px 10px;
+      text-align: center;
+    }
+  }
+  
+  /* ======== TELAS MUITO PEQUENAS ======== */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 26px;
+    }
+  
+    .baixo p,
+    .baixo .pp {
+      font-size: 14px;
+    }
+  
+    .baixo a {
+      font-size: 14px;
+      padding: 4px 8px;
+    }
+  }
+  
