@@ -6,6 +6,7 @@
 .cima {
   display: flex;
   padding-left: 87px;
+  height: auto;
 }
 h1 {
   color: #ffffff;
@@ -20,12 +21,10 @@ a {
   color: #ffffff;
   font-family: "Noto Music"; 
   display: flex;
-  height: 100px;
   width: 400px;
   text-decoration: none;
   font-size: 24px;
-  margin: 50px;
-  padding-top: 100px;
+  margin: 30px;
 }
 .baixo {
     width: 623px;
@@ -45,6 +44,7 @@ a {
 body {
   display: flex;
   background: linear-gradient(123deg, #6B5B41 42.44%, #74644B 44.76%, #967D56 54.86%);
+  background-repeat: no-repeat;
   align-items: center;
  
 }
@@ -78,6 +78,10 @@ body {
 
 
 @media (max-width: 768px) {
+  body{
+    flex-direction: column;
+
+  }
 
   .cima {
     flex-direction: column;
@@ -132,20 +136,32 @@ body {
 }
 
 /* ======== EXTRA: telas muito pequenas ======== */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 26px;
   }
 
   a {
     font-size: 16px;
+    padding: 8px;
+    height: auto;
   }
 
   .Poema p {
     font-size: 13px;
+    line-height: 18px;
   }
 
   .baixo {
     font-size: 14px;
   }
+  body{
+    width: 100%;
+    flex-direction: column;
+  }
+  .img-main{
+    width: 100%;
+  }
+
+
 }
